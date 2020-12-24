@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+    font-size: 20px;
+}
+.container img{
+    max-width: 50%;
+    margin: 5%;
+}
+.firstbtn button{
+    background-color: pink;
+    color: white;
+    position: relative;
+    width: 100%;
+    top: 25%;
+    right: 10%;
+}
+button{
+    border-radius: 10px;
+    color:pink;
+    border: none;
+    background-color: white; 
+    padding: 5px 10px;
+}
+.paragraph{
+    text-align: center;
+    font-size: 15px;
+    margin: 40px 20px;
+}
+.getstarted{
+    background-color: pink;
+    color:white;
+}
+.paragraph img{
+    margin:10px 0;
+    max-width: 100%;
+}
+.communities{
+    text-align: center;
+    font-size: 15px;
+    margin: 40px 20px;
+}
+.sectiontop1{
+    background-image: url('./images/bg-section-top-mobile-1.svg');
+    background-repeat: no-repeat;
+    height: 150px;
+    background-size: cover;
+}
+.cardsection{
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    background-color:whitesmoke;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    padding: 30px 10px;
+   max-width: 100%;
+}
+.card img{
+    max-width: 50%;
+}
+.sectionbottom1{
+    background-image:url('./images/bg-section-bottom-mobile-1.svg');
+    background-repeat: no-repeat;
+    height: 150px;
+    background-size: cover;
+}
+.sectiontop2{
+    margin-top: 150px;
+    background-image: url('./images/bg-section-top-mobile-2.svg');
+    background-repeat: no-repeat;
+    height: 150px;
+    background-size: cover;
+}
+.sectionbottom2{
+    background-image:url('./images/bg-section-bottom-mobile-2.svg');
+    background-repeat: no-repeat;
+    height: 150px;
+    background-size: cover;
+}
+.cardboxhsl{
+    background-color: hsl(207,100%,98%);
+}
+.lastsection{
+    background-color: white;
+    padding: 30px;
+}
+.lastcontainer{
+text-align: center;
+font-size: 10px;
+}
+.btn{
+    padding: 10px 10px;
+}
+.footercurve{
+    background-image:url('./images/bg-footer-top-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 300px;
+    background-size: contain;
+}
+.footersection{
+    color: white;
+    background-color: hsl(192,100%,9%);
+    text-align: center;
+}
+.footerinfo p{
+    width: 100%;
+    padding:0 10%;
+}
+.footerinfo input, button{
+    border-radius: 10px;
+    border: none;
+    margin: 2%;
+}
+.subscribe button{
+    background-color: rgb(134, 24, 42);
+    color: white;
+}
+.social a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 10px;
+}
+@media all and (min-width: 1020px){
+    .container img{
+        margin: 10%;
+        max-width: 100%
+    }
+    .container button{
+        width: 100%;
+        padding: 10px 30px;
+        position: relative;
+        right: 20%;
+        top: 20%;
+        font-size: 15px;
+        background-color: pink;
+        color: white;
+    }
+    header{
+        background-image: url('./images/bg-hero-desktop.svg');
+    }
+    .paragraph{
+        display: flex;
+    }
+    .buildcommunity{
+ margin: 10% 5%;       
+    }
+    .communities{
+        display: flex;
+        justify-content: center;
+        gap: 10%;
+        text-align: center;
+    }
+    .sectiontop1{
+    background-image: url('./images/bg-section-top-desktop-1.svg');
+    }
+    .card{
+        display: flex;
+    }
+    .row{
+        flex-direction: row-reverse;
+    }
+    .trio{
+        margin: 5%;
+    }
+    .sectionbottom1{
+        background-image:url('./images/bg-section-bottom-desktop-1.svg');
+    }
+    .sectiontop2{
+        background-image:url('./images/bg-section-top-desktop-2.svg');
+    }
+    .sectionbottom2{
+        background-image: url('./images/bg-section-bottom-desktop-2.svg');
+    }
+    .footercurve{
+        background-image:url('./images/bg-footer-top-desktop.svg');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+    }
+    .lastsection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .lastcontainer{
+       padding: 5% 10%;
+    }
+    .footersection{
+        text-align: left;
+    }
+ .footerinfo{
+     font-size: 20px;;
+     margin-top: 2%;
+    display: flex;
+    flex-direction: row-reverse;
+ }
+  .footerinfo h1{
+padding: 0 10%;
+}
+.subscribe{
+    display: flex;
+    flex-direction: row;
+    margin: 0 10%;
+}
+.subscribe input{
+    margin:0 1%;
+}
+.subscribe button{
+    background-color: rgb(134, 24, 42);
+    color: white;
+}
+.social {
+    margin: 0 4%;
+}
+}
